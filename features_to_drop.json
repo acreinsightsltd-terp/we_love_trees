@@ -1,0 +1,9 @@
+[
+  "planet_30m_biomass_aboveground_live_carbon_density_uncertainty_lower_bound",
+  "planet_30m_biomass_day_of_year",
+  "planet_3m_biomass_aboveground_live_carbon_density_uncertainty_upper_bound",
+  "planet_3m_height_cover_canopy_cover_uncertainty_lower_bound",
+  "planet_3m_height_cover_canopy_cover_uncertainty_upper_bound",
+  "planet_3m_height_cover_canopy_height_uncertainty_lower_bound",
+  "sentinel2_b3"
+]
