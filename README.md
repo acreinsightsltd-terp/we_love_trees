@@ -6,11 +6,9 @@ Smallholder Tree Cover Classification and Validation Pipeline
 # Project Description
 This is a modular geospatial and machine learning pipeline designed to generate accurate tree vs. non-tree classification masks for smallholder agricultural plots.
 
-Conventional proprietary models often misclassify vegetation — especially in plots with dense undergrowth, grass, or shrubs — leading to confusion between true tree cover and other vegetation. This project addresses that gap by integrating high-resolution satellite data, preprocessing routines, and LiDAR-based validation to produce a robust and interpretable classification model.
+Conventional proprietary models often misclassify vegetation — especially in plots with dense undergrowth, grass, or shrubs — leading to confusion between true tree cover and other vegetation. This project addresses that gap by integrating high-resolution satellite data(Planet), Synthetic aperture rada preprocessing routines, and LiDAR-based validation to produce a robust and interpretable classification model.
 
 ## Project Structure
-
-Project structure  
 we_love_trees/  
 │  
 ├── data/  
@@ -71,7 +69,7 @@ Run the project
 ```bash
   python main.py 
 ```
-(Optional) Reproduce Specific Stages
+(Optional) Reproduce specific stages  
 Each major stage can also be run independently:
 ```bash
   python main.py --stage preprocess
